@@ -1,0 +1,23 @@
+.App {
+  margin: 50px auto;
+  width: 400px;
+
+  .topCalculator {
+  display: flex;
+  flex-direction: column;
+    input, span{
+      margin-bottom: 10px;
+    }
+  
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 10px;
+  &__btn{
+    background: white;
+  }
+}
+}
